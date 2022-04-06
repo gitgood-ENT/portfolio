@@ -1,0 +1,12 @@
+.langItems {
+    display: inline-flex;
+    justify-content: center; 
+}
+
+.langList {
+    text-align: center;
+}
+
+.temp {
+    text-align: center;
+}

@@ -1,25 +1,48 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
+import Hangman from "./components/hangman";
+import Noah from "./components/noah";
+import Contact from "./components/contact";
+import Languages from './components/languages'
+
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  constructor(props){
+    super(props)
+    
+  }
+
+    render() {
+      return (
+        <div>
+          <Noah />
+        <br/>
+        <Languages />
+        <br/>
+        <Contact />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className='Hangman'>
+        <Hangman />
+        </div>
+        <div>
+        </div>
+        
+      </div>
+    )
+  }
 }
 
-export default App;

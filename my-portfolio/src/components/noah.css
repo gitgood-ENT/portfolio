@@ -1,0 +1,66 @@
+.Noah {
+    text-align: center;
+
+}
+
+.title {
+    color: coral;
+    text-shadow: 2px 2px black;
+    background-image: url(https://images.unsplash.com/photo-1535332371349-a5d229f49cb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+
+}
+
+.listSkills {
+    list-style-position: inside;
+    text-align: left;
+}
+
+.lists {
+    display: inline-block;
+    display: inline;
+    color: black;
+    text-shadow: none;
+}
+
+/* Title and list */
+.skills {
+    display: inline-block;
+    font-size: 20px;
+    width: 50%;
+    text-align: left;
+    /* justify-content: center; */
+    background-image: url(https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+/* Skills title */
+.skillz {
+    padding-left: 15%;
+}
+
+/* Title and list */
+.passions {
+    display: inline-block;
+    font-size: 20px;
+    width: 50%;
+    text-align: left;
+    background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80);
+    background-position: center;
+    background-size: cover;
+}
+/* Passions title */
+.passionz {
+    padding-left: 15%;
+}
+
+/* ul {
+    display: flex;
+    justify-content: center;
+    max-width: 33%;
+} */
