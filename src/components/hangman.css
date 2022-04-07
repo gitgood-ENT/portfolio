@@ -1,4 +1,9 @@
 .pGuesses {
     display: inline-flex;
     justify-content: center; 
+    padding-left: 1rem;
+}
+
+.prevGuesses {
+    padding-bottom: 3rem;
 }
