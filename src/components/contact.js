@@ -3,7 +3,7 @@ import octocat from "./graphics/Octocat.png";
 import E2H from './graphics/E2H_logo.png'
 import './contact.css'
 
-export default class contact extends Component {
+export default class Contact extends Component {
 
 
 
@@ -19,7 +19,7 @@ export default class contact extends Component {
             <div></div>
             <h4>Still not convinced? Check out some of my other work</h4>
             <a className='iconLink' href='https://github.com/gitgood-ENT'>
-                <img src={octocat} />
+                <img src={octocat} alt="Github Octocat"/>
             </a>
             
             
@@ -27,7 +27,7 @@ export default class contact extends Component {
         <div className='e2h'>
             <h4>Looking for something else? Check this out if you're curious about enhancing communication and productivity in your workplace.</h4>
             <a className='iconLink' href='https://www.exploretoheal.com/'>
-                <img src={E2H} />
+                <img src={E2H} alt="Explore to Heal"/>
             </a>
         </div>
     </div>

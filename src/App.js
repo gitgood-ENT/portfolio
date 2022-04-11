@@ -8,10 +8,10 @@ import Languages from './components/languages'
 import './App.css';
 
 export default class App extends Component {
-  constructor(props){
-    super(props)
+  // constructor(props){
+  //   super(props)
     
-  }
+  // }
 
     render() {
       return (
