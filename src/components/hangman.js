@@ -124,10 +124,10 @@ class Hangman extends Component {
       wrongGuesses, } = this.state
     return (
       <div>
-         Hey there, you aren't lost are you? Well, if you are, why not play a game?
+         Got time for a quick game?
          <br/>
          <p>Let's play Hangman!</p>
-         <p>The rules are simple, guess letters, or words, until you get the word or you make six incorrect guesses. Good luck! </p>
+         <p>The rules are simple, guess letters, or words, until you get the word or you make six incorrect guesses. Good luck and have fun! </p>
          <br/>
         {displayedCharacters}
         <br/>
@@ -153,7 +153,8 @@ class Hangman extends Component {
         <br/>
         {!theAnswer ? <button onClick={this.restart}>Click here to start.</button> : <button onClick={this.restart}>Click here to restart.</button>}
         <br/>
-        {!didLose && !didWin && <p>You have {6 - wrongGuesses} guesses remaining.</p>}
+        {theAnswer && !didLose && !didWin && 
+        <p>You have {6 - wrongGuesses} guesses remaining.</p>}
         <div className="prevGuesses">
           <p>Your previous Guesses</p>
           <br/>
