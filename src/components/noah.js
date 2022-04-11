@@ -9,7 +9,7 @@ export default class Noah extends Component {
           <h1 className='name'>Noah</h1>
           <div className='about'>
               <h2 className='intro'>A creative mind with the desire to both create and dismantle, and to have fun doing it.</h2>
-              <p>
+              <p className='aboutMe'>
                   I specialize in front-end development and have a hearty appetite for challenges and optimization. <em>"It doesn't have to be perfect."</em> or <em>"Good enough for government work"</em> may be statements that you've probably heard before, but I don't like phrases like that. I strive to make my products more than just functional, I strive to make them memorable...and fun when possible.
               </p>
           </div>
