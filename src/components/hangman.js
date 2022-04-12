@@ -20,8 +20,6 @@ class Hangman extends Component {
   }
   startGame(){
     let theWord = this.getRandomWord(wordArray)
-    console.log(theWord);
-    
     setTimeout(this.setState({
       alreadyGuessed: false,
       currentGuess: '',
@@ -61,7 +59,6 @@ class Hangman extends Component {
   }
 
   hangmanLogic = (guess) => {
-    console.log(guess);
     if (guess.toLowerCase() === this.state.theAnswer){
       this.setState({
         didWin: true,
@@ -77,7 +74,6 @@ class Hangman extends Component {
           this.setState({
             displayedCharacters: [...updatedArray],
           })
-          console.log(this.state.displayedCharacters);
         }
       }
     }
@@ -154,10 +150,9 @@ class Hangman extends Component {
         {!theAnswer ? <button onClick={this.restart}>Click here to start.</button> : <button onClick={this.restart}>Click here to restart.</button>}
         <br/>
         {theAnswer && !didLose && !didWin && 
-        <p>You have {6 - wrongGuesses} guesses remaining.</p>}
+        <p>You have made {wrongGuesses} incorrect guesses.</p>}
         <div className="prevGuesses">
           <p>Your previous Guesses</p>
-          <br/>
           <ul>
             {previousGuesses.map((value, index) => (
               <li className='pGuesses' key={index}>
