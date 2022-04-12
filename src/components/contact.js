@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
 import octocat from "./graphics/Octocat.png";
 import E2H from './graphics/E2H_logo.png'
+import linkedIn from './graphics/linkedIn.png'
 import './contact.css'
 
 export default class Contact extends Component {
-
-
-
-  render() {
-    return <>
+    
+    
+    
+    render() {
+        return <>
     <div className='ABCDEFGH'>
         <div className='contact'>
             <div className='unlimited'>
-                The only limits we have are the ones we place on ourselves. That being said, what do you want to create? 
+                The only limits we have are the ones we place on ourselves. That being said, let's create something together. 
             </div>
             <br/>
             <div>Email me: ward.noahd@gmail.com</div>
             <div></div>
-            <h4>Still not convinced? Check out some of my other work</h4>
+            <h4>Here are some helpful links for you to check out.</h4>
             <a className='iconLink' href='https://github.com/gitgood-ENT'>
                 <img src={octocat} alt="Github Octocat"/>
+            </a>
+            <a className='iconLink' href='https://www.linkedin.com/in/ward-noahd/'>
+                <img src={linkedIn} alt="LinkedIn Logo"/>
             </a>
             
             
