@@ -17,7 +17,7 @@ export default class Contact extends Component {
             </div>
             <br/>
             <div>
-                <a href='mailto:ward.noahd@gmail.com'>Email me</a>
+            Email me: <a href='mailto:ward.noahd@gmail.com'>ward.noahd@gmail.com</a>
             </div>
             <div></div>
             <h4>Here are some helpful links for you to check out.</h4>
