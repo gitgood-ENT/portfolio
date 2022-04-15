@@ -16,7 +16,9 @@ export default class Contact extends Component {
                 The only limits we have are the ones we place on ourselves. That being said, let's create something together. 
             </div>
             <br/>
-            <div>Email me: ward.noahd@gmail.com</div>
+            <div>
+                <a href='mailto:ward.noahd@gmail.com'>Email me</a>
+            </div>
             <div></div>
             <h4>Here are some helpful links for you to check out.</h4>
             <a className='iconLink' href='https://github.com/gitgood-ENT'>
